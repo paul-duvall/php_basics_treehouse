@@ -8,4 +8,5 @@ In the php basics Treehouse course, I have learnt about:
 - escape sequences
 - concatination of strings
 - conditionals using if, elseif, else statements
+- date() function in different formats
 - basic use in html to call in strings and include other php files using include
