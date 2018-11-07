@@ -12,4 +12,4 @@ In the php basics Treehouse course, I have learnt about:
 - basic use in html to call in strings and include other php files using include
 - switch statements
 - arrays, including indexed arrays, adding array elements, removing array elements, editing array elements, modifying arrays, associative arrays, multidimensional arrays, sorting arrays
-- Loops - do while and while loops
+- Loops - do while and while loops, for and foreach loops
