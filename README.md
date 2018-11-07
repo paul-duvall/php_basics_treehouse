@@ -13,3 +13,4 @@ In the php basics Treehouse course, I have learnt about:
 - switch statements
 - arrays, including indexed arrays, adding array elements, removing array elements, editing array elements, modifying arrays, associative arrays, multidimensional arrays, sorting arrays
 - Loops - do while and while loops, for and foreach loops
+- Functions - arguments, default arguments, returning values, variable functions, closures, string functions, array functions
