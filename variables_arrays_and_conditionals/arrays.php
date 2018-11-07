@@ -1,16 +1,24 @@
 <?php 
 
 // Declare an array
-$learn = array('Conditionals', 'arrays', 'loops');
+$learn = array('Conditionals', 'Arrays', 'Loops');
 
 // Add a value to the array
 $learn[] = 'Build something awesome!';
 
 // Add some more new values using push()
-array_push($learn, 'Functions', 'Forms', 'objects');
+array_push($learn, 'Functions', 'Forms', 'Objects');
 
 // Add multiple values to the start of an array using array_unshift()
-array_unshift($learn, 'html', 'css');
+array_unshift($learn, 'Html', 'Css');
+
+// Sorting items by their values
+asort($learn);
+
+// Sorting items by their value and reindexing
+sort($learn);
+
+// rsort() does the same but in reverse order, shuffle() randomly sorts the items
 
 // Remove a value from the start using array_shift()
 //array_shift($learn);
@@ -28,7 +36,7 @@ array_unshift($learn, 'html', 'css');
 //$learn = array_values($learn);
 
 // Update a particular element in an array:
-$learn[0] = 'Email';
+//$learn[0] = 'Email';
 
 var_dump($learn);
 //echo $learn[1];
