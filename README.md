@@ -28,3 +28,4 @@ Building a php website
 - Separate header / footer php documents
 - Using variables to change page titles
 - Using $_GET\["category"\] to change content depending upon category in url
+- Looping through an array to generate page content
