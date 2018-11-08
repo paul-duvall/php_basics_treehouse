@@ -14,3 +14,18 @@ In the php basics Treehouse course, I have learnt about:
 - arrays, including indexed arrays, adding array elements, removing array elements, editing array elements, modifying arrays, associative arrays, multidimensional arrays, sorting arrays
 - Loops - do while and while loops, for and foreach loops
 - Functions - arguments, default arguments, returning values, variable functions, closures, string functions, array functions
+
+Error handling
+
+- turning errors on / off using php.ini, .htaccess and individual php files
+- general error handling
+- logging errors
+
+Building a php website
+
+- Using php code on a site
+- Using include to incorporate content from separate php documents
+- Separate header / footer php documents
+- Using variables to change page titles
+- Using $_GET\["category"\] to change content depending upon category in url
+- Looping through an array to generate page content
