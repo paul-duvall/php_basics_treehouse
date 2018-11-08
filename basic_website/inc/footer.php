@@ -9,7 +9,7 @@
 				<li><a href="https://www.facebook.com/TeamTreehouse">Facebook</a></li>
 			</ul>
 
-			<p>&copy;<?php echo date("Y"); ?> Personal Media Library</p>
+			<p>&copy;<?php echo date("Y"); ?> Personal Media Library BLAH!</p>
 
 		</div>
 	
