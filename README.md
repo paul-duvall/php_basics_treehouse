@@ -26,3 +26,5 @@ Building a php website
 - Using php code on a site
 - Using include to incorporate content from separate php documents
 - Separate header / footer php documents
+- Using variables to change page titles
+- Using $_GET\["category"\] to change content depending upon category in url
