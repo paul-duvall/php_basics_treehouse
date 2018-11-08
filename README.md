@@ -29,3 +29,5 @@ Building a php website
 - Using variables to change page titles
 - Using $_GET\["category"\] to change content depending upon category in url
 - Looping through an array to generate page content
+- using array_rand and foreach loop to add four random items to the main page
+
