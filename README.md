@@ -30,4 +30,6 @@ Building a php website
 - Using $_GET\["category"\] to change content depending upon category in url
 - Looping through an array to generate page content
 - using array_rand and foreach loop to add four random items to the main page
+- creating breadcrumb links
+- creating a details page that generates the content from the database based upon which item is selected, including using implode() to generate a link from a nested array where necessary
 
