@@ -33,3 +33,8 @@ Building a php website
 - creating breadcrumb links
 - creating a details page that generates the content from the database based upon which item is selected, including using implode() to generate a link from a nested array where necessary
 
+Adding a form to a php website
+
+- formatting a form to output to a php file
+- a shortcut for concatination by adding output to a variable using .=
+
