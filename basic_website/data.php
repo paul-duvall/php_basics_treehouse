@@ -186,6 +186,3 @@ $catalog[304] = [
     "category" => "Music",
     "artist" => "Nat King Cole"
 ];
-
-
-?>

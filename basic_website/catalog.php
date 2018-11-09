@@ -26,13 +26,20 @@ include("inc/header.php"); ?>
 
 <div class="section catalog page">
   <div class="wrapper">
-    <h1><?php echo $pageTitle; ?></h1>
+    <h1><?php 
+    // Checks to see if user is on full catalog; if not, prints link to full catalog before page title
+    if ($section != null) {
+      echo "<a href='catalog.php'>Full Catalog</a> &gt; ";
+    }
+    echo $pageTitle; ?></h1>
 
     <ul class="items">
       <?php 
-      // Loops through and generates each item on the page using data from the data.php file
-      foreach($catalog as $id => $item){
-        echo get_item_html($id, $item);
+      // Generates an array of the keys of all items from the current category
+      $categories = array_category($catalog, $section);
+      // Loops through and generates each item on the page using data from the data.php file and a function from functions.php
+      foreach($categories as $id){
+      echo get_item_html($id, $catalog[$id]);
       }
       ?>
     </ul>
