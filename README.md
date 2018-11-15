@@ -1,5 +1,7 @@
 # php_basics_treehouse
 
+This course was undertaken in preparation of continuing my learning of Wordpress site and theme development and provided a more detailed overview of php than I was anticipating. There were some similarities with Javascript but also some fundamental differences. I enjoyed using php to display data held in separate data files. I found the form submission portion of the course to be quite challenging and think I will need to review this portion again before I am confident implementing this functionality in my own projects.
+
 In the php basics Treehouse course, I have learnt about:
 
 - variables (integers, floats, strings)
@@ -37,4 +39,8 @@ Adding a form to a php website
 
 - formatting a form to output to a php file
 - a shortcut for concatination by adding output to a variable using .=
+- form validation
+- specifying required fields
+- escaping output
+
 
